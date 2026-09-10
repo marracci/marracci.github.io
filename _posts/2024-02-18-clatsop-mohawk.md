@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Clasp Mohawk"
+title: "Clatsop Mohawk"
 date: 2024-02-18 07:30:00 -0700
 published: true
 tags: [stories, photos]

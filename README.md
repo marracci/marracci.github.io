@@ -1,3 +1,5 @@
+<link rel="icon" type="image/x-icon" href="/ico-winter-tree.png">
+
 #### _Una Vita, Vivila._ / _One Life, Live It._
 
 

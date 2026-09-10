@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "All Posts"
+title: "Writings"
 permalink: /blog/
 ---
 
-### Recent Articles
+### Recent Entries
 
 {% for post in site.posts %}
 * **[{{ post.title }}]({{ post.url }})** — {{ post.date | date: "%B %d, %Y" }}

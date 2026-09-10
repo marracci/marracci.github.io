@@ -8,7 +8,7 @@ author: B.J. Marraccini
 ---
 
 
-![Clatsop Mohawk](/photography/bj-marraccini-clatsopMohawk.jpeg) 
+![Clatsop Mohawk](/photography/bj-marraccini-clatsopMohawk.jpg) 
 
 \ 
 

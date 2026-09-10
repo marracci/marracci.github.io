@@ -3,11 +3,15 @@ layout: post
 title: "Edge of the Sea"
 date: 2024-04-02 18:30:00 -0700
 published: true
-tags: stories, photos
+tags: [stories, photos]
 ---
 
 
-<img src="/photography/bj-marraccini-edgeofSea.jpeg" align="left" width="350" alt="Alt text"> \ <br><br> Walking along the tidal zone, you can’t help but feel the beating heart of the Pacific Ocean. The reach and retreat of the tide is a rhythmic crescendo and decrescendo filling your ears; the humidity seeps into your pores and the salt air permeates your inhaled breaths. 
+![Edge of the Sea](/photography/bj-marraccini-edgeofSea.jpeg) 
+
+\ 
+
+Walking along the tidal zone, you can’t help but feel the beating heart of the Pacific Ocean. The reach and retreat of the tide is a rhythmic crescendo and decrescendo filling your ears; the humidity seeps into your pores and the salt air permeates your inhaled breaths. 
 
 If you pay close attention, each flush of water stretching onto the shore leaves a unique imprint in the sand, and capillary tension pulls the molecules back into the womb while the sand grudgingly gives way and releases them.  
 

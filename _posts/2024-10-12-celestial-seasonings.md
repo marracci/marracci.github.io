@@ -41,3 +41,5 @@ I didn't want to leave, I wanted to keep seeing more lights, more movement and m
 Even though this was a "bucket list" item I was able to check off, that doesn't mean that I'm finished with it (like sky diving, for instance). Far from it. In fact, I want to witness this in other places, further north on the Earth, with snow on the ground. I want to not only feel the Aurora, I want to reconnect with the heavens on this type of frequency again. Next time I find myself in front of God's and Nature's lightshow, I will make sure I have some accompanying low-volume background music. I think binaural beats is something that would be excellent to pair with an Aurora light show.
 
 /
+
+Back to [Essays](/blog)

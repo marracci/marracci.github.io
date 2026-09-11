@@ -17,3 +17,5 @@ The west side of the Coast Range in Oregon might just be the wettest place in Am
 Where the cutting ends, abrupt growth remains — these are the signals of a boundary line, change in management plan, or different land owner. Looking at a satellite image of western Oregon, you can easily see the patchwork clear cuts throughout the landscape. The practice of artificial revegetation is relatively new, however those revegetated areas have an unnatural, almost symmetrical look to them, as nature’s hands were a bit tied in determining the regrowth process.
 
 /
+
+Back to [Essays](/blog)

@@ -19,3 +19,5 @@ Kennywood symbolizes a rite of passage - yearly for many, occasionally for other
 On this **412 Day**, I salute Kennywood Park, a place that still brings me back to my childhood each time I visit. And maybe that’s the entire point. When you walk through those gates, you can drop all of our worries. Just find a ride or a game, and laugh while soaking it all in.
 
 /
+
+Back to [Essays](/blog)

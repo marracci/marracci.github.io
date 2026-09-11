@@ -29,3 +29,5 @@ I'm lucky to be alive, and happy to have the chance to thrive.
 Life is Short. Live It. _Una Vita, Vivila._
 
 /
+
+Back to [Essays](/blog)

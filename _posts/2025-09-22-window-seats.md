@@ -21,3 +21,5 @@ Sometimes, coming over the Cascades can turn your stomach in an instant, and oth
 Capture some photos of course, but make sure you also set aside some time to be a kid again and just stare, dream and enjoy.
 
 /
+
+Back to [Essays](/blog)

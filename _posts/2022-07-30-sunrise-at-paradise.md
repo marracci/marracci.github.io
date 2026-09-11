@@ -26,3 +26,5 @@ I hiked up to McClure Rock from Paradise, then scrambled further higher on the S
 I met Justin and Ryan in the middle of Muir Snowfield on their descent and walked with them all the way back to their car. For them, summiting Rainier was an experience they will never forget. For me, this morning was another bookmark in my [Peakbagger log](https://peakbagger.com/climber/ClimbListC.aspx?cid=1075&u=ft&j=-1&y=9999&sort=ascentdated) and a great way to slow down and soak in Tahoma's beautiful vistas. 
 
 /
+
+Back to [Essays](/blog)

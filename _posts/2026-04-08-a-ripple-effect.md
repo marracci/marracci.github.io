@@ -19,3 +19,5 @@ The swell's frequencies organize and align naturally, its longer wavelengths pow
 Marching forward to their destiny, the waves rise up and crest, while the offshore winds push their top layers in opposition, sending a pulse of diamonds into the sky that cascade down like a rainstorm in May.  Underneath, the invisible trough lashes kelp fields and churns its way through the seafloor sediments. Finally, the advance wave's crest can no longer be held back, and it curves forward onto itself, eating it's own energy as it barrels toward a final crescendo.
 
 /
+
+Back to [Essays](/blog)

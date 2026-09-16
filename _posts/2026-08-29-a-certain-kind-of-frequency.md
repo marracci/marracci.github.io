@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Certain Kind of Frequency"
-date: 2022-07-30 08:00:00 -0700
+date: 2026-08-29 13:00:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini

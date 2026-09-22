@@ -16,12 +16,10 @@ In this note, I am walking through the steps to convert an older Lenovo IdeaPad 
 <span style="color:red">***Before we begin, know that the process below should be considered `USE AT YOUR OWN RISK`. I'm not responsible for bricking your machine or troubleshooting your issues.*** Ok, now that we've got that out of the way...</span>
 
 ## Migrating from Windows 11 to Linux
-The Lenovo was a laptop I had since 2018 (I think) and it has Windows 11 installed, with the latest updates. To start, I made sure there wasn't any data of value on my Lenovo (there wasn't), and so I decided to take the leap and fully convert this laptop into a Linux machine. Here's how I did that:
-
-The big overview of this part is this:<br>
+The Lenovo was a laptop I had since 2018 (I think) and it has Windows 11 installed, with the latest updates. To start, I made sure there wasn't any data of value on my Lenovo (there wasn't), and so I decided to take the leap and fully convert this laptop into a Linux machine. The big overview of how I did this is:<br>
 _Download Linux ISO > Download Rufus > Run Rufus to format a bootable USB > Configure BIOS > Boot from USB to Install_
 
-The specific steps are below:
+My specific steps are listed below:
 #### Retrieving Source files for installation
 1. Choose your Linux OS. I chose [Linux Mint](https://www.linuxmint.com), Cinammon Edition.
 2. Download the [Cinanamon ISO installer file](https://www.linuxmint.com/edition.php?id=326) from one of the mirrors and save locally. It is about 3GB in total.

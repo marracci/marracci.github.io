@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Essays"
+title: "Essays and Notes"
 permalink: /blog/
 ---
 

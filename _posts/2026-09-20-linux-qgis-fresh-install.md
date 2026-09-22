@@ -9,7 +9,7 @@ author: B.J. Marraccini
 
 ![LinuxMint Logo](/images/blog/linuxmint-logo.jpg) ![QGIS Logo](/images/blog/qgis-logo.png)
 
-Yes, I know it is 2026 and this stuff can be figured out by follow the advice of our dumb LLM friends. But, I wanted to capture this process manually because I enjoy tinkering with operating systems and basic command line/bash stuff. 
+Yes, I know it is 2026 and this stuff can be figured out by following the advice of our dumb LLM friends. But I wanted to capture this process manually because I enjoy tinkering with operating systems and basic command line/bash stuff. 
 
 In this note, I am walking through the steps to convert an older Lenovo IdeaPad FLEX14-API into a Linux laptop that I primarily will use for mapping and data processing. The IdeaPad has 18GB of RAM, and a decent-but-not-great processor (AMD Ryzen 7 3700U), so it will be ok for the basic work I want to do: create some map-based artwork, and fiddle around with server-based layers.
 

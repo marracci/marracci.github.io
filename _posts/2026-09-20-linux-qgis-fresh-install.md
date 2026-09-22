@@ -7,9 +7,11 @@ tags: [geek, linux, qgis]
 author: B.J. Marraccini
 ---
 
-![LinuxMint Logo](/images/blog/linuxmint-logo.jpg) ![QGIS Logo](/images/blog/qgis-logo.jpg)
+![LinuxMint Logo](/images/blog/linuxmint-logo.jpg) ![QGIS Logo](/images/blog/qgis-logo.png)
 
 Yes, I know it is 2026 and this stuff can be figured out by follow the advice of our dumb LLM friends. But, I wanted to capture this process manually because I enjoy tinkering with operating systems and basic command line/bash stuff. In this note, I am walking through the steps to convert an older Lenovo IdeaPad FLEX14-API into a Linux laptop that I primarily will use for mapping and data processing. The IdeaPad has 18GB of RAM, and a decent-but-not-great processor (AMD Ryzen 7 3700U), so it will be ok for the basic work I want to do: create some map-based artwork, and fiddle around with server-based layers.
+
+Before we begin, know that the process below should be considered `USE AT YOUR OWN RISK`. I'm not responsible for bricking your machine or troubleshooting your issues. Ok, now that we've got that out of the way...
 
 ## Migrating from Windows 11 to Linux
 The Lenovo was a laptop I had since 2018 (I think) and it has Windows 11 installed, with the latest updates. After migrating my daily stuff over to a MacBook Pro, I rarely used the Lenovo. It just sat in my garage as a tool to use if I needed to look something up on YouTube, like how to mount an awning to the roof of my Subaru, or researching Bioenno batteries for activating peaks with my ham radios. To start, I made sure there wasn't any data of value on my Lenovo (there wasn't), and so I decided to take the leap and fully convert this laptop into a Linux machine. Here's how I did that:
@@ -102,7 +104,7 @@ Finally -- ready to install QGIS
 sudo apt install qgis qgis-plugin-grass
 ```
 
-The installer completed, and I was able to open QGIS on the fresh install of Linux on my Lenovo IdeaPad FLEX 14-API. When I'm ready to install QGIS Server:
+The installer completed, and I was able to open QGIS on the fresh install of Linux on my Lenovo IdeaPad FLEX 14-API. When I'm ready to install QGIS Server in the future:
 ```
 sudo apt update
 sudo apt install egis-server --no-install-recommends --no-install-suggests
@@ -111,7 +113,10 @@ apt install python3-qgis
 ```
 
 -----
+##### Resources used in preparing this guide
+1. FixSoft's YouTube video on Windows-to-Linux Mint migration [Video](https://youtube.com/watch?v=CFAkHcEiZHs)
+2. QGIS Installation Guide [Link](https://qgis.org/resources/installation-guide/#linux)
 
-
+-----
 
 Back to [Essays and Notes](/blog)

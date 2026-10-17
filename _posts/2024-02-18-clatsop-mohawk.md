@@ -5,6 +5,8 @@ date: 2024-02-18 07:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-clatsopMohawk.jpg
+image_alt: "Clatsop Mohawk"
 ---
 
 

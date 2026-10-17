@@ -5,6 +5,8 @@ date: 2024-04-02 18:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-edgeofSea.jpeg
+image_alt: "Edge of the Sea"
 ---
 
 

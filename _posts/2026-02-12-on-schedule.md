@@ -5,6 +5,8 @@ date: 2026-02-12 09:15:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-onSchedule.jpg
+image_alt: "On Schedule"
 ---
 
 

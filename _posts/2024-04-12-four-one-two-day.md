@@ -5,6 +5,8 @@ date: 2024-04-12 17:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-fouronetwoDay.jpg
+image_alt: "412 Day"
 ---
 
 

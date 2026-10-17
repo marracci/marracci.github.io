@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Configuring WMTS Layers in Goat Maps"
+title: "Configuring WMTS Layers in GoatMaps"
 date: 2026-10-17 07:45:00 -0700
 published: true
 tags: [geek, apps, maps]

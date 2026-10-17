@@ -5,6 +5,8 @@ date: 2025-09-22 11:00:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-windowSeats.jpg
+image_alt: "Window Seats"
 ---
 
 

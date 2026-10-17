@@ -27,7 +27,7 @@ Some items to note here:
 - The import URL must be configured with `Style`, `format` and `TileMatrixSet`
 
 ### Find the WMTS Resource
-The basemap type I wanted to load into GoatMaps is [USGS Topographic Maps (topos)](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer?f=jsapi). Aside from the layer's context and fit for outdoor excursions, I am partial to it because in 2014 I designed and seeded the first Esri-based tile cache for this layer while working at the USGS National Geospatial Technical Operations Center (NGTOC) in Lakewood, CO. Here is the USGS Topo layer's source:
+The basemap type I wanted to test and load into GoatMaps is [USGS Topographic Maps (topos)](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer?f=jsapi). Here is the USGS Topo layer's server resource:
 
 [https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer)
 

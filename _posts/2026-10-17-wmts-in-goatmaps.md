@@ -7,7 +7,9 @@ tags: [geek, apps, maps]
 author: B.J. Marraccini
 ---
 
-![goat maps interface](/images/blog/goat-maps.png)
+![goat maps interface](/images/blog/goat-maps.png)<br><br>
+
+### Why GoatMaps
 
 After nearly 10 years as a GaiaGPS subscriber and devotee, I left in 2024 because the Outside acquisition materially changed the soul and nature of GaiaGPS. I give _zero focaccia's_ about social media and really don't want my data to be used elsewhere. I wanted to use a simple, focused and configurable research and route planning tool.  
 
@@ -30,20 +32,21 @@ The basemap type I wanted to load into GoatMaps is [USGS Topographic Maps (topos
 [https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer](https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer)
 
 ![WMTS link location](/images/blog/wmts-link.png)<br>
-At the top left of the page, select the <u>WMTS</u> link to access the XML configuration file.<br>
+At the top left of the page, select the <u>WMTS</u> link to access the XML configuration file.<br><br>
 
 ### Required elements for configuration
 In order to configure the WMTS layer URL correctly, the following XML `<Layer>` elements are needed:<br>
-![WMTS xml](/images/blog/wmts-xml.jpg)
 1. EPSG:3857 (confirm this is shown in `<ows:BoundingBox crs="urn:ogc:def:crs:EPSG::3857">`
 2. Style name: `<ows:Identifier>default</ows:Identifier>`
 3. image format: `<Format>image/jpgpng</Format>`
 4. tile matrix: `<TileMatrixSet>default028mm</TileMatrixSet>`
-   
-You can either search for these in the XML, or you can find them by navigating to the `<Content>` section.
 
 Lastly, you need the full Resource URL for the WMTS, found here `<ResourceURL`:<br>
 `https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}`
+   
+You can either search for these in the XML, or you can find them by navigating to the `<Content>` section.<br><br>
+![WMTS xml](/images/blog/wmts-xml.png)<br><br>
+
 
 ### Configuring the WMTS URL
 Since we have all of the information we need from the section above, we will configure the WMTS url by starting the the `template` and replacing according to this table:<br>
@@ -61,17 +64,10 @@ So, we will take this resource url: `https://basemap.nationalmap.gov/arcgis/rest
 and we will replace the xml elements with ours according to the table.  
 
 Here's our **final WMTS resource url** for use in GoatMaps:
-`https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png`
+`https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png`<br><br>
 
-The WMTS loads and displays successfully, and we are off and running. Hope this helps.<br>
-![usgs topo overlay in goat maps](/images/blog/usgs-topo-overlay.jpg)
-
-
-
-
------
-##### Resources used in preparing this guide
-
+The WMTS loads and displays **USGS Topo** successfully, and we are off and running. Hope this helps.<br><br>
+![usgs topo overlay in goat maps](/images/blog/usgs-topo-overlay.png)
 
 -----
 

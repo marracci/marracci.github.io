@@ -5,6 +5,8 @@ date: 2024-10-12 06:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-celestialSeasonings-2.jpg
+image_alt: "Celestial Seasonings"
 ---
 
 

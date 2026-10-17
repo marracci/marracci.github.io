@@ -41,15 +41,18 @@ In order to configure the WMTS layer URL correctly, the following XML `<Layer>` 
 3. image format: `<Format>image/jpgpng</Format>`
 4. tile matrix: `<TileMatrixSet>default028mm</TileMatrixSet>`
 
-Lastly, you need the full Resource URL for the WMTS, found here `<ResourceURL`:<br>
-`https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}`
+Lastly, you need the full Resource URL for the WMTS, found here `<ResourceURL`:
+```
+https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}
+```
    
-You can either search for these in the XML, or you can find them by navigating to the `<Content>` section.<br><br>
+You can either search for these in the XML, or you can find them by navigating to the `<Contents>` section.<br><br>
 ![WMTS xml](/images/blog/wmts-xml.png)<br><br>
 
 
 ### Configuring the WMTS URL
 Since we have all of the information we need from the section above, we will configure the WMTS url by starting the the `template` and replacing according to this table:<br>
+
 | WMTS            | XML Source   |
 |-----------------|--------------|
 | {Style}         | default      |
@@ -60,11 +63,18 @@ Since we have all of the information we need from the section above, we will con
 
 Finally, we have to specify the image type in the WMTS resource we are adding to GoatMaps. Because the `<Format>image/jpgpng</Format>` allows for .png, we will use that to support transparency applied via the GoatMaps layer opactity slider. 
 
-So, we will take this resource url: `https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}`<br>
+So, we will take this resource url:
+```
+https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}
+```
+
 and we will replace the xml elements with ours according to the table.  
 
 Here's our **final WMTS resource url** for use in GoatMaps:
-`https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png`<br><br>
+```
+https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png
+```
+<br><br>
 
 The WMTS loads and displays **USGS Topo** successfully, and we are off and running. Hope this helps.<br><br>
 ![usgs topo overlay in goat maps](/images/blog/usgs-topo-basemap.png)

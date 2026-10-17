@@ -5,6 +5,8 @@ date: 2026-08-29 13:00:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-intoTheMist.jpg
+image_alt: "Into the Mist"
 ---
 
 

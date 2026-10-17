@@ -11,7 +11,7 @@ author: B.J. Marraccini
 
 ### Why GoatMaps
 
-After nearly 10 years as a GaiaGPS subscriber and devotee, I left in 2024 because the Outside acquisition materially changed the soul and nature of GaiaGPS. I give _zero focaccia's_ about social media and really don't want my data to be used elsewhere. I wanted to use a simple, focused and configurable research and route planning tool.  
+After nearly 10 years as a GaiaGPS subscriber and devotee, I left in 2024 because the Outside acquisition materially changed the soul and nature of GaiaGPS. I give _zero focaccia's_ about social media and really don't want my data to be used elsewhere. I wanted to use a simple, focused and configurable terrain, trail and route planning tool.  
 
 In 2024, Jesse Crocker started a new app called [Goat Maps](https://www.goatmaps.com), and when I learned of why it was created, I came on as an early user and migrated all of my geo-data into Goat Maps for use going forward. Even though GoatMaps development was at a slow pace, I was content with how it worked for my needs. In June 2026 or so, GoatMaps sent users a message that the application and service will be deprecated by end of 2026. For me, this was a sharp blow because I was using GoatMaps as my primary tool for planning all of my outdoor hikes, camping and peak bagging excursions. 
 

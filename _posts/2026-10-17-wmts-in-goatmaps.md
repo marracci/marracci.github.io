@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Configuring WMTS Layers in Goat Maps"
-date: 2026-10-17 16:53:00 -0700
+date: 2026-10-17 14:53:00 -0700
 published: true
 tags: [geek, apps, maps]
 author: B.J. Marraccini

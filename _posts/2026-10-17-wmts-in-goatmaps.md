@@ -5,6 +5,8 @@ date: 2026-10-17 07:45:00 -0700
 published: true
 tags: [geek, apps, maps]
 author: B.J. Marraccini
+image: /images/blog/usgs-topo-basemap.png
+image_alt: "USGS Topo layer in GoatMaps"
 ---
 
 ![goat maps interface](/images/blog/goat-maps.png)<br><br>

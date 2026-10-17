@@ -5,6 +5,8 @@ date: 2026-04-08 06:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-rippleEffect.jpg
+image_alt: "A Ripple Effect"
 ---
 
 

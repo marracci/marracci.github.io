@@ -41,7 +41,7 @@ In order to configure the WMTS layer URL correctly, the following XML `<Layer>` 
 3. image format: `<Format>image/jpgpng</Format>`
 4. tile matrix: `<TileMatrixSet>default028mm</TileMatrixSet>`
 
-Lastly, you need the full Resource URL for the WMTS, found here `<ResourceURL`:
+Lastly, you need the full Resource URL for the WMTS, found here `<ResourceURL template=`:
 ```
 https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}
 ```
@@ -61,7 +61,7 @@ Since we have all of the information we need from the section above, we will con
 | {TileRow}       | {y}          |
 | {TileCol}       | {x}          |
 
-Finally, we have to specify the image type in the WMTS resource we are adding to GoatMaps. Because the `<Format>image/jpgpng</Format>` allows for .png, we will use that to support transparency applied via the GoatMaps layer opactity slider. 
+Finally, we have to specify the image type in the WMTS resource we are adding to GoatMaps. Because `<Format>image/jpgpng</Format>` allows for .png, we will use that to support transparency applied via the GoatMaps layer opacity slider. 
 
 So, we will take this resource url:
 ```

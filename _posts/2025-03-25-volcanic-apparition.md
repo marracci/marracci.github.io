@@ -5,6 +5,8 @@ date: 2025-03-25 19:00:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-volcanicApparition.jpg
+image_alt: "Volcanic Apparition"
 ---
 
 

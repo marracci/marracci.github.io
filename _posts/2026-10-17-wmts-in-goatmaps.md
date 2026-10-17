@@ -67,7 +67,7 @@ Here's our **final WMTS resource url** for use in GoatMaps:
 `https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png`<br><br>
 
 The WMTS loads and displays **USGS Topo** successfully, and we are off and running. Hope this helps.<br><br>
-![usgs topo overlay in goat maps](/images/blog/usgs-topo-overlay.png)
+![usgs topo overlay in goat maps](/images/blog/usgs-topo-basemap.png)
 
 -----
 

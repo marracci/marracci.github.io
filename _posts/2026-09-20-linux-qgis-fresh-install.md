@@ -5,6 +5,8 @@ date: 2026-09-20 18:45:00 -0700
 published: true
 tags: [geek, linux, qgis]
 author: B.J. Marraccini
+image: /images/blog/linux-mint-testMode.jpeg
+image_alt: "Linux Mint"
 ---
 
 ![LinuxMint Logo](/images/blog/linuxmint-logo.jpg) ![QGIS Logo](/images/blog/qgis-logo.png)

@@ -5,6 +5,8 @@ date: 2023-01-05 22:30:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-perseverance.jpg
+image_alt: "cheers to survival"
 ---
 
 

@@ -15,12 +15,12 @@ image_alt: "USGS Topo layer in GoatMaps"
 
 After nearly 10 years as a GaiaGPS subscriber and devotee, I left in 2024 because the Outside acquisition materially changed the soul and nature of GaiaGPS. I give _zero focaccia's_ about social media and really don't want my data to be used elsewhere. I wanted to use a simple, focused and configurable terrain, trail and route planning tool.  
 
-In 2024, Jesse Crocker started a new app called [Goat Maps](https://www.goatmaps.com), and when I learned of why it was created, I came on as an early user and migrated all of my geo-data into Goat Maps for use going forward. Even though GoatMaps development was at a slow pace, I was content with how it worked for my needs. In June 2026 or so, GoatMaps sent users a message that the application and service will be deprecated by end of 2026. For me, this was a sharp blow because I was using GoatMaps as my primary tool for planning all of my outdoor hikes, camping and peak bagging excursions. 
+In 2024, Jesse Crocker started a new app called [Goat Maps](https://www.goatmaps.com), and when I learned of why it was created, I came on as an early user and migrated all of my geo-data into Goat Maps for use going forward. Even though GoatMaps development was at a slow pace, I was content with how it worked for my needs. In June 2026 or so, GoatMaps sent users a message that the application and service will be deprecated by end of 2026. For me, this was a sharp blow because I was using GoatMaps as my primary tool for planning all of my outdoor hikes, backcountry, camping and peak bagging excursions. 
 
 In September 2026, we received a message that GoatMaps was being resurrected by Nathan Cahill. This was music to my ears, and since then the application has take a significant stride forward in features and capabilities. The web version in particular is now a powerful planning and route creation tool. I am thrilled with this new evolution.
 
 ### WMTS as an Overlay or Basemap layer
-So, one of the features I find in the web app is the ability to add WMTS layers as an overlay or basemap. This is awesome. It also requires some creativity in how you configure the WMTS URL. This note captures those steps for reference.
+So, one of the features I find in the web app is the ability to add Custom WMTS layers as an overlay or basemap. This is awesome. It also requires some creativity in how you configure the WMTS URL. This note captures those steps for reference.
 
 We will add USGS [_The National Map_](https://www.usgs.gov/programs/national-geospatial-program/national-map) WMTS layers published as Esri MapServer endpoints. Therefore, we must configure the WMTS resource URL appropriately so that GoatMaps can read service capabilities and display the tiles correctly.
 
@@ -54,7 +54,7 @@ You can either search for these in the XML, or you can find them by navigating t
 
 
 ### Configuring the WMTS URL
-Since we have all of the information we need from the section above, we will configure the WMTS url by starting the the `template` and replacing according to this table:<br>
+Since we have all of the information we need from the section above, we will configure the WMTS url by starting with the `ResourceURL template=` URL and replacing according to this table:<br>
 
 | WMTS            | XML Source   |
 |-----------------|--------------|
@@ -71,9 +71,9 @@ So, we will take this resource url:
 https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/{Style}/{TileMatrixSet}/{TileMatrix}/{TileRow}/{TileCol}
 ```
 
-and we will replace the xml elements with ours according to the table.  
+and we will replace the WMTS required elements with our XML specs according to the table.  
 
-Here's our **final WMTS resource url** for use in GoatMaps:
+Here's our **final WMTS url** we will plug in as a Custom layer in GoatMaps (web):
 ```
 https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/WMTS/tile/1.0.0/USGSTopo/default/default028mm/{z}/{y}/{x}.png
 ```

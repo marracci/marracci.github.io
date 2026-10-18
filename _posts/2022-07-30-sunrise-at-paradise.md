@@ -5,6 +5,8 @@ date: 2022-07-30 08:00:00 -0700
 published: true
 tags: [stories, photos]
 author: B.J. Marraccini
+image: /photography/bj-marraccini-nightMode.jpg
+image_alt: "sunrise at paradise"
 ---
 
 

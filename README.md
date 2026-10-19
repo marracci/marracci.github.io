@@ -9,3 +9,10 @@
 
 ----------
 Find me on: [Foto App](https://the.fotoapp.co/marracci) | [LinkedIn](https://linkedin.com/in/bjmarraccini) | [Spotify](https://open.spotify.com/user/361q79aayxdmjc84gt9k1ulbh?si=De5_35ILQAWvwtmyqn74-A&utm_source=copy-link) | [QRZ](https://www.qrz.com/db/KD7MTN)
+
+----------
+### Recent Entries
+
+{% include recent-posts.html limit=3 %}
+
+[See all entries →]({{ '/blog/' | relative_url }})

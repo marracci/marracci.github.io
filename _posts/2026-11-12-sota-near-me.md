@@ -13,7 +13,7 @@ image_alt: "SOTA Near Me"
 
 ## Is anyone going to be on a summit near me?
 
-As an amateur radio operator (Technician Class), I like to watch and occasionally chase [Summits on the Air (SOTA)](https://en.wikipedia.org/wiki/Summits_On_The_Air) from home, and right now my station is limited to VHF/UHF. That means the activations I can actually hear and work are currently the ones within line of sight, or close to it. A summit 250-500 miles away or more might as well be on the moon. So my main question currently is: *Is anyone going to be on a summit near me?*
+As an amateur radio operator (Technician Class), I like to watch and occasionally chase [Summits on the Air (SOTA)](https://en.wikipedia.org/wiki/Summits_On_The_Air) from home, and right now my station is limited to VHF/UHF. That means the activations I can actually hear and work are currently the ones within line of sight, or close to it. A summit more than 250 miles away or more might as well be on the moon. So my main question currently is: *Is anyone going to be on a summit near me?*
 
 Summit Activators post alerts ahead of time to say where and when they plan to be on the air. Those alerts are gold for a chaser, espcially those with HF privileges and equipment. But if you're an operator like me, the alerts are usefule only if you can quickly answer one thing: which of them are close enough for me to hear? 
 
@@ -40,15 +40,16 @@ I wrote down my requirements before I started, and kept them short on purpose:
 
 - **Grid square:** enter a Maidenhead locator like CN96 and a radius, or limit it to summits inside the square.
 - **Association, region or summit:** W7W for a whole association, W7W/MC for one region, or W7W/MC-001 for a single summit.
-- **Coordinates:** a latitude and longitude
-- **My Location:** tap on "Use my location", accurate to 1km (on purpose)
+- **Coordinates:** by specific latitude and longitude coordinates.
+- **Band/Mode Choices:** a filter for specific bands and modes, as well as a "VHF/UHF Only" toggle.
+- **My Location:** tap on "Use my location", accurate to 1km (on purpose).
 
 Press Search, and the map opens with a pin on every summit that has an alert in your window. Tap a pin to see who's going, when they plan to activate, points, and on what frequency & mode. Distance and bearing from you are in the table below the map, and importantly, you can export the list to a plain text file for true offline use.
 
 ![sota-near-me map output](/images/blog/sota-near-me-map.png)
 
 
-The key design choice is the band filter. The app only offers band queries that reliably work within about 500 miles or less: 6m, 2m, 1.25m, 70cm and 23cm, plus 160, 80, 60 and 40 meters on HF. An activator heading out with only a 20m antenna won't show up. One who lists both 20m and 2m will, because I might work them on 2m. Nothing disappears silently: the app tells you how many alerts it left out.
+The key design choice is the band filter. The app only offers band queries that reliably work within about 250 miles or so: 6m, 2m, 1.25m, 70cm and 23cm, plus 160, 80, 60 and 40 meters on HF. An activator heading out with only a 20m antenna won't show up. One who lists both 20m and 2m will, because I might work them on 2m. Nothing disappears silently: the app tells you how many alerts it left out.
 
 ## Simple on purpose
 
@@ -68,7 +69,7 @@ The map library is bundled with the page instead of loaded from a third-party CD
 
 I'm working toward my General license, and that's part of why the regional HF bands are already in the app. Once I can expand to General privileges on HF, the circle of summits I can reach gets a lot bigger, and [SOTA Near Me](https://marracci.github.io/sota-near-me/) will probably grow with me, or maybe just be deprecated.
 
-If you're a VHF/UHF chaser, or anyone who mostly cares about what's happening nearby, give it a try at [marracci.github.io/sota-near-me](https://marracci.github.io/sota-near-me/). It's open source under the MIT license, and suggestions or bug reports are welcome on GitHub.
+If you're a VHF/UHF chaser, or anyone who mostly cares about what's happening nearby, give it a try at [marracci.github.io/sota-near-me](https://marracci.github.io/sota-near-me/). It's open source under the MIT license, and suggestions or bug reports are welcome on [GitHub](https://github.com/marracci/sota-near-me).
 
 See you on the air, hopefully from a summit not too far away.
 

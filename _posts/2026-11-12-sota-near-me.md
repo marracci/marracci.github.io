@@ -13,9 +13,9 @@ image_alt: "SOTA Near Me"
 
 ## Is anyone going to be on a summit near me?
 
-As an amateur radio operator (Technician Class), I like to watch and occasionally chase [Summits on the Air (SOTA)](https://en.wikipedia.org/wiki/Summits_On_The_Air) from home, and right now my station is limited to VHF/UHF. That means the activations I can actually hear and work are currently the ones within line of sight, or close to it. A summit more than 250 miles away or more might as well be on the moon. So my main question currently is: *Is anyone going to be on a summit near me?*
+As an amateur radio operator (Technician Class), I like to watch and occasionally chase [Summits on the Air (SOTA)](https://en.wikipedia.org/wiki/Summits_On_The_Air) from home, and right now my station is limited to VHF/UHF. That means the activations I can actually hear and work are currently the ones within line of sight, or close to it. A summit more than 250 miles away might as well be on the moon. So my main question currently is: *Is anyone going to be on a summit near me?*
 
-Summit Activators post alerts ahead of time to say where and when they plan to be on the air. Those alerts are gold for a chaser, espcially those with HF privileges and equipment. But if you're an operator like me, the alerts are usefule only if you can quickly answer one thing: which of them are close enough for me to hear? 
+Summit Activators post alerts ahead of time to say where and when they plan to be on the air. Those alerts are gold for a chaser, espcially those with HF privileges and equipment. But if you're primarily a VHF/UHF operator like me, the alerts are useful only if you can quickly answer one thing: which of them are close enough for me to hear? 
 
 I couldn't find a tool that answered that simply, so I built a very simple static web tool.
 
@@ -32,11 +32,12 @@ I wrote down my requirements before I started, and kept them short on purpose:
 3. **Only bands relevant to nearby summits.** Show activations I have a realistic chance of working.
 4. **Works anywhere.** One web page that runs the same on a laptop in the shack and a phone in the truck. Importantly: nothing to install.
 5. **No credentials, keys or cookies.** No account to create, no API key to manage, nothing that tracks you.
+6. **Export Results to txt file.** For true offline value, I can put in an intended location, get results and download the list to my device.
 6. **Simple and secure.** Small enough that I can read every line, and purposefully careful with data that comes from the internet.
 
 ## My solution: SOTA Near Me
 
-[SOTA Near Me](https://marracci.github.io/sota-near-me/) is a single web page that searches SOTAwatch alerts and puts them on a topographic map. You pick how to search:
+[SOTA Near Me](https://marracci.github.io/sota-near-me/) is a single web page that queries SOTAwatch alerts and puts them on a topographic map. You pick how to search:
 
 - **Grid square:** enter a Maidenhead locator like CN96 and a radius, or limit it to summits inside the square.
 - **Association, region or summit:** W7W for a whole association, W7W/MC for one region, or W7W/MC-001 for a single summit.
@@ -49,15 +50,15 @@ Press Search, and the map opens with a pin on every summit that has an alert in 
 ![sota-near-me map output](/images/blog/sota-near-me-map.png)
 
 
-The key design choice is the band filter. The app only offers band queries that reliably work within about 250 miles or so: 6m, 2m, 1.25m, 70cm and 23cm, plus 160, 80, 60 and 40 meters on HF. An activator heading out with only a 20m antenna won't show up. One who lists both 20m and 2m will, because I might work them on 2m. Nothing disappears silently: the app tells you how many alerts it left out.
+The key design choice is the band filter. The app only offers band queries that would reliably be useful for chasing summit activations within about 250 miles or less: 6m, 2m, 1.25m, 70cm and 23cm. I added HF bands for future use (160, 80, 60 and 40 meters). An activator heading out with only a 20m antenna won't show up. One who lists both 20m and 2m will, because I might work them on 2m. Nothing disappears silently: the app tells you how many alerts it left out.
 
 ## Simple on purpose
 
-[SOTA Near Me](https://marracci.github.io/sota-near-me/) is plain HTML, CSS and JavaScript, hosted for free on GitHub Pages. There's no server of mine in the middle, no build step, and no framework. You can clone the repository and open the page straight from your computer.
+[SOTA Near Me](https://marracci.github.io/sota-near-me/) is plain HTML, CSS and JavaScript, hosted for free on GitHub Pages. There's no server of mine in the middle, no build step, and no live or regularly updating framework. You can clone the repository and open the page straight from your computer.
 
 That simplicity also made it easier to keep it safe and private:
 
-- **Nothing happens until you ask.** The app doesn't contact anything until you press Search.
+- **Nothing happens until you ask.** The app doesn't take action or query API's until you press Search.
 - **No accounts, keys or cookies.** It talks only to the public SOTA data services and the map tile servers, and sends no login or cookie to either.
 - **Your location stays with you.** "Use my location" only runs when you tap it, and it's rounded to about a kilometer before it's shown or saved in your browser.
 - **Locked down by default.** A strict content security policy means the page can only run its own code and only connect to the handful of services it needs.
